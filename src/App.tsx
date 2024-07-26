@@ -13,11 +13,11 @@ function App() {
   }, []);
   return (
     <div className="App" style={{ fontFamily: 'Handlee', fontWeight: 'bold', height: '100vh', backgroundImage: `url(${'bg.jpg'})`}}>
-      <div>
+{/*       <div>
         <img src={'icon-removebg-preview.png'} alt={'icon'}/>
         <p style={{fontWeight: 'bold', fontSize: 25}}>Hi I'm Trung!</p>
-      </div>
-      <div style={{display: 'block', margin: 25, textAlign: 'left'}}>
+      </div> */}
+{/*       <div style={{display: 'block', margin: 25, textAlign: 'left'}}>
         <div>
           <h2>About me</h2>
           <h3>I'm a software engineer, husband, and lover of astronomy, humanity, and religion.
@@ -39,7 +39,7 @@ function App() {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   );
 }
